@@ -3,7 +3,7 @@
 	"package": "com.ishland.code_of_conduct_video.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"MixinServerConfigurationNetworkHandler"
 	],
 	"injectors": {
 		"defaultRequire": 1
