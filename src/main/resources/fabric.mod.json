@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "code-of-conduct-video",
+	"version": "${version}",
+	"name": "code-of-conduct-video",
+	"description": "Play video in your Code of Conduct screen.",
+	"authors": [
+		"ishland"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/code-of-conduct-video/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ishland.code_of_conduct_video.TheMod"
+		]
+	},
+	"mixins": [
+		"code-of-conduct-video.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": ">1.21.8",
+		"java": ">=21"
+	}
+}
